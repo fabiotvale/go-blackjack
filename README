@@ -1,0 +1,23 @@
+Blackjack implementation in Golang
+
+This project could use some third party library for part of the implementation, for instance to implement the deck, but for a sake of self-training I decided to write everything from scratch and self-encapsulated.
+
+All code was made in a single file to make it easier for you to import it and test it online.
+
+Some future improvements might include:
+- Implement other basic features like double and split
+- Handle some unknown errors
+- Cover the code with unit tests
+- Customize some initial options other than amount of players, for instance defining the wallet for each player
+- Automate some other actions, for instance auto bid
+- Make it realtime by using gRPC or websockets
+- Implement a more sophisticated heuristic/AI for dealer's decisions
+
+To run it locally:
+> go run main.go -h
+
+The official Go Playground's website (https://goplay.tools/) doesn't support interactive programs, but you can use the following one to run and test it online:
+https://www.programiz.com/golang/online-compiler/ 
+Just copy and paste the whole code there and click on 'Run'
+Another free alternative is: https://www.onlinegdb.com/online_go_compiler
+:)
